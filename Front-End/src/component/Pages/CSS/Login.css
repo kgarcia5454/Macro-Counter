@@ -1,0 +1,84 @@
+
+.Page{
+    background: #6190e8; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #a7bfe8,
+        #6190e8
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #a7bfe8,
+        #6190e8
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.SignIn{
+    background-color: rgba(255, 255, 255, 0.768);
+    padding: 5vh 4vw;
+    border: 0px solid black;
+    border-radius: 7%;
+    box-shadow: 8px 9px rgba(84, 109, 184, 0.558);
+}
+
+.LoginHeader{
+    text-align: center;
+    font-size: 4.5vh;
+    margin-bottom: 5vh;
+}
+
+.LoginForm{
+    display:inline-block;
+    width: 20vw;
+}
+
+label{
+    font-size: 1.8vh;
+}
+
+
+input{
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: rgba(253, 253, 253, 0);
+    margin-bottom: 2vh;
+    width: 100%;
+}
+
+.SignInButton{
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+
+    width: 100%;
+    font-weight: bold;
+
+    background: rgb(65, 105, 225);
+    padding: 1vh 1vw;
+    background: linear-gradient(
+        270deg,
+        rgba(65, 105, 225, 1) 0%,
+        rgba(64, 141, 205, 1) 100%
+    );
+    border: 1px solid rgb(210, 210, 210);
+    color: white;
+}
+
+.SignInButton:hover{
+    background: rgb(106, 143, 253);
+}
+
+.SignInButton:active{
+    border: 1px inset gray;
+    background: rgb(5, 29, 104);
+}
+
+.Unregistered{
+    font-weight: bold;
+}
+
+

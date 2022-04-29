@@ -1,0 +1,18 @@
+.HomeHero {
+    width: 100%;
+    opacity: 0.8;
+    mask-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0)
+    );
+}
+
+.HeroText {
+    position: absolute;
+    text-shadow: 1px 1px 4px white;
+    top: 30vh;
+    left: 37vw;
+    right: 0;
+    bottom: 0;
+}
