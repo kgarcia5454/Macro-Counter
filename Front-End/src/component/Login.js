@@ -24,6 +24,7 @@ const Login = () => {
         setErrMsg("");
     }, [user, pwd]);
 
+
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -36,7 +37,9 @@ const Login = () => {
             const accessToken = response?.data?.accessToken;
             const roles = response?.data?.roles;
 
-            setAuth(user)
+            setAuth(user);
+
+            localStorage.setItem('user',user)
 
             setUser('');
             setPwd('');

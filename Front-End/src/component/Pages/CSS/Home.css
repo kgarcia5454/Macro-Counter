@@ -10,9 +10,9 @@
 
 .HeroText {
     position: absolute;
-    text-shadow: 1px 1px 4px white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.333);
     top: 30vh;
-    left: 37vw;
+    left: 39vw;
     right: 0;
     bottom: 0;
 }

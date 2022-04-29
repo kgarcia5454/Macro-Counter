@@ -62,19 +62,13 @@ app.post("/auth", async(req,res) => {
     //compares password with entered result
     try{
         if(await bcrypt.compare(req.body.pwd, user.pwd)){
-            console.log("winner");
-            res.send(200);
+            res.sendStatus(200);
         }else{
-            res.send(401);
+            res.sendStatus(401);
         }
     }catch{
-        console.log("what")
         res.status(500).send()
     }
 })
-
-
-
-
 
 app.listen(Port,() => console.log("SERVER HOSTED ON "+ Port))

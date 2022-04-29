@@ -176,7 +176,8 @@ const Register = () => {
                 />
 
                 <p id="confirmnote" className={matchFocus && !validMatch ? "instructions" : "offscreen" }>
-                    <li> Must match the first password input field. </li>
+                    Must match the first password input field.
+                   
                 </p>
 
                 <button className = "RegisterButton" disabled={!validName|| !validPwd || !validMatch ? true:false}> Sign Up</button>

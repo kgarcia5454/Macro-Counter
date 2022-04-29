@@ -2,7 +2,9 @@ import React from "react";
 import Button from "../Button.js"
 import Hero from "../../assets/Hero.jpg"
 
-import styles from "./CSS/Home.css"
+import styles from "./CSS/Home.css";
+
+import { Link } from "react-router-dom";
 
 function Home() {
     return (
@@ -11,8 +13,10 @@ function Home() {
                 <div className="Hero">
                     <img src={Hero} alt="Background" className="HomeHero" />
 
-                    <h1 className="HeroText">Stop with boring ass counting.</h1>
-                    <Button cname="HeroButton" name="Get Started"></Button>
+                    <h1 className="HeroText">Track recipes with ease!</h1>
+                    <Link to="/Register">
+                        <Button cname="HeroButton" name="Get Started" ></Button>
+                    </Link>
                 </div>
             </div>
         </div>
