@@ -30,7 +30,6 @@ function NavBar() {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="Login">{AccountText}</Nav.Link>
                         <Nav.Link href="Register">Register</Nav.Link>
-                        
                     </Nav>
                 </Navbar.Collapse>
     
@@ -38,7 +37,7 @@ function NavBar() {
         );
     }else{
         return(
-            <Navbar className="NavBar" bg="dark" variant= "dark" sticky="top" expand="lg">
+            <Navbar className="NavBar" bg="light" variant= "light" sticky="top" expand="lg">
                 <Navbar.Brand>
                     Macro Counter
                 </Navbar.Brand>
@@ -48,6 +47,7 @@ function NavBar() {
                 <Navbar.Collapse>
                     <Nav className="navbar-nav ms-auto">
                         <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/Account">Account</Nav.Link>
                         <Nav.Link href="SignOut">{AccountText}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

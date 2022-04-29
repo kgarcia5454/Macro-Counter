@@ -10,4 +10,4 @@ function RegisterPage(){
     )
 }
 
-export default Register;
+export default RegisterPage;

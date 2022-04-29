@@ -3,16 +3,19 @@
     opacity: 0.8;
     mask-image: linear-gradient(
         to bottom,
-        rgb(255, 255, 255),
-        rgba(255, 255, 255, 0)
+        rgb(9, 9, 9),
+        rgba(75, 75, 75, 0.531)
     );
 }
 
 .HeroText {
     position: absolute;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.333);
+    color: rgb(255, 255, 255);
+    font-size: 9vh;
+    text-shadow:1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
     top: 30vh;
-    left: 39vw;
+    left: 28vw;
     right: 0;
     bottom: 0;
 }
+

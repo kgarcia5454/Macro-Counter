@@ -4,9 +4,11 @@ import NavBar from "./component/NavBar.js";
 import Home from "./component/Pages/Home";
 import Login from "./component/Pages/Login";
 import Register from "./component/Pages/Register"
+import SignOut from './component/SignOut';
+import Account from "./component/Account";
 
 import{BrowserRouter as Router, Route, Routes} from "react-router-dom"
-import SignOut from './component/SignOut';
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
           <Route path = "/Login" element = {<Login/>}/>
           <Route path = "/Register" element = {<Register/>}/>
           <Route path = "/SignOut" element = {<SignOut/>}/>
+          <Route path = "/Account" element = {<Account/>}/> 
         </Routes>
 
       </Router>

@@ -5,12 +5,9 @@ import SignOut from "../SignOut.js"
 function SignOutPage(){
     return (
         <div className={styles}>
-            <SignOut/>
-            console.log("What");
-            <Redirect to = {Home} />
-
+            <SignOut/>∂
         </div>
     )
 }
 
-export default Register;
+export default SignOutPage;
